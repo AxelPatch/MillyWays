@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--Start our html tags and set the language to english-->
+<html lang="en">
+    <!--Start our head tags-->
+<head>
+    <title>MillyWays</title>
+    <!--Add style with css-->
+    <Style>
+        body{
+          background-image: url(Backround.jfif);
+          background-repeat: no-repeat;
+          background-size: cover;
+          color: orangered;
+          text-align: center;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1{
+          font-size: 60px;
+        }
+        p1{
+            font-size: 20px;
+        }
+    </Style>
+    <script src="JavaScriptCode.js">
+       //calls the java script page so that this html page can run it
+    </script>
+</head>
+<!--Start our body tags-->
+<Body>
+    <!--start our headder tags-->
+    <h1>MillyWays</h1>
+    <!--Start Calling the java script functions-->
+    <p1>
+    <script>
+    
+        //Call display welcome function
+        displaywelcome();
+        //create a few blank lines for spacing
+        document.write("<br><br>")
+        document.write("The Game of Dice and Luck!")
+        document.write("<br><br>")
+        document.write("How to play:")
+        //Creates space between lines
+        document.write("<br><br>")
+        //Calls the functio that displays how to paly
+        howotoplay();
+        document.write("<br><br>")
+        //Calls the function that runs the game every time it reloads
+        play();
+    </script>
+    </p1>
+
+</Body>
+
+
+</html>
